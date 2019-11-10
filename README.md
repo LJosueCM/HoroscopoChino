@@ -19,3 +19,4 @@ Extras:
 - Se hizo uso de una tercera Activity en la cual se le da al usuario una pequeña descripción de su signo.
 - En lugar de usar un color de fondo para la aplicación, se hizo uso de una imagen alusiva a la cultura china.
 - Se hizo uso de un botón realizado manualmente con Adobe Illustrator, de esta forma se le da más estética al programa y no se hace uso de un boton genérico.
+- Cuando el usuario ingresa una fecha de nacimiento que coincide con la fecha actual, exceptuando el año, se le manda un Toast deseándole un "Feliz cumpleaños".
