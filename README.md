@@ -13,6 +13,7 @@ Restricciones:
 - El usuario solo puede ingresar números en el apartado de número de cuenta, y solo podrá ingresar 10. Si ingresa una cantidad menor, el programa no lo dejará avanzar hasta que lo haya llenado completamente.
 - Se hace uso de Patterns para verificar que el email tenga el formato correcto, es decir, usuario@empresa.terminación. En caso de no ser así, se le informa al usuario y no se le permite avanzar.
 - En el cálculo de la edad, se consideran día, mes y año, de esta forma, evitamos usar solo una resta entre años que derivaría en ocasiones a un error de cálculo.
+- La aplicación debe estar en por lo menos dos idiomas desde el archivo de recursos de texto, por lo tanto, se selecciono el idioma Español e Inglés.
 
 Extras:
 - Se hizo uso de la función DatePickerDialog para que el usuario seleccionara su fecha de nacimiento con un calendario en lugar de hacerlo introduciendo dígitos.
