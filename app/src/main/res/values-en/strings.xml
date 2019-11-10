@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chinese Horoscope</string>
+    <string name="titulo">Chinese Horoscope</string>
+    <string name="name">Name</string>
+    <string name="date">Date of birth</string>
+    <string name="account">Account number</string>
+    <string name="mail">E-mail</string>
+    <string name="errorAccount">Verify that the account number be correct</string>
+    <string name="error">Please, verify that all fields have been filled</string>
+    <string name="error1">Field cant be empty</string>
+    <string name="error2">Please enter a valid email address</string>
+    <string name="errorFecha">Please enter a valid date of birth</string>
+    <string name="Cumpleaños">Happy Birthday</string>
+    <string name="hola">Hi</string>
+    <string name="edad1">You are</string>
+    <string name="edad2">years old</string>
+    <string name="animal">According to the Chinese</string>
+    <string name="animal2">Horoscope, you are a</string>
+    <string name="rata">Those born under the sign of the Rat are wise people who like to surround themselves with family and friends, who help in their daily chores and problems. Good workers, savers and good managers of your economy.</string>
+    <string name="buey"> Buffalos or oxen are patient and calm animals, which radiate much love and love and instill respect. Great workers, they feel comfortable surrounded by order and cleanliness and achieve success thanks to their effort. For them the most important thing is the family, although they are jealous with their partner. They love art and music. They dont like to argue, although they do obey him. </string>
+    <string name="tigre"> The people of this sign are very passionate and full of energy. They do not go unnoticed, they are adventurous, independent, resourceful, impulsive and they like fun. They are friends for a lifetime, although they like to be the leader of the group. In the world of relationships, the strongest, sexy and seductive are shown, although excessive behavior. </string>
+    <string name="conejo"> Those born in the Year of the Rabbit have extraordinary human qualities: they are prudent, intelligent, friendly, discreet, farsighted, attentive and benevolent. Therefore, the rabbit sign is widely accepted by people. Moderate and forgiving, lover of peace and concord, the rabbit hates war and violence. He likes calm life, tenderness and harmony. </string>
+    <string name="dragon"> Symbol of the Emperor in China, the dragon is imaginative, magnanimous, enterprising, lucky and powerful. It is full of strength and vitality. He is a true accumulator of energy and if you get angry, he will be enraged in such a way that he will lose his temper. It will be difficult to calm him, because he does not believe anyone or anyone. They usually give good advice and are fortunate in both money and love. They are very sentimental and fall madly in love. </string>
+    <string name="serpiente"> Snakes people are cunning, they know what they want and how to get it. Your conversation is elegant and fluid. They are intense and prudent at the same time. They are jealous and possessive of their family but loyal. They like to pamper their friends and expect from them a reciprocal attitude. If they feel disdained or fail in their attempts, they may be angry for hours, although they are good at keeping calm and looking calm in difficult situations. </string>
+    <string name="caballo"> Popular, optimistic, full of joy, adventurous, eloquent, impatient, enterprising, enthusiastic about life, great lovers and friends. His great passion is money and travel. They like to meet new people, different cultures, speak languages ​​and are the life of the parties. Their physical attractiveness and beauty makes it easy for them to find love: a trap in which they fall hopelessly. </string>
+    <string name="cabra"> The goat is creative, artistic, positive, elegant, feminine, affable, compassionate, weeping, sensitive, dreamy, proud and sad. They do not pursue material wealth and prefer to live on their reveries. They love family, children, home and being in touch with nature. They are very hardworking, although they dont like the pressure of a deadline, or of a boss. </string>
+    <string name="mono"> Animal more similar to the human being, is witty, fun, friendly, quick-minded and awake, buyer, persuasive, sociable, capable of solving any problem, no matter how difficult it is. Their relationships with friends and friends are often conflictive, because it does not support not being valued. They are in good health, although their excesses at parties, alcohol and drugs could take their toll. </string>
+    <string name="gallo"> Attractive and seductive, talented and appreciated. They are meticulous, efficient, orderly, good conversationalists, observers, selfish, usurers, pragmatists and very familiar. In love they are romantic, stubborn and fight for the control of their partner. They usually stand out as public relations or as artists. They dont pay too much attention to their health. </string>
+    <string name="perro"> The dog is a being dedicated to work, honest, reliable, diligent, with a great sense of justice and loyalty. Captivate everyone with his exciting personality, his good humor and his great ability to listen to the problems of others and give good advice. In love they are faithful and loyal, although very jealous when their partner is not at home. Nerves are your biggest health problem. </string>
+    <string name="cerdo"> It is a sincere, honest, confident, educated, affectionate, helpful, brave, determined animal, with great willpower, without great pretensions or vanity, with the feet on the ground. They are very nice and have impeccable taste and manners. In love they are sensual, passionate and patient, but to a point. They are very hardworking, although the lack of attraction for sport and apathy will cause their physique to suffer and gain excess weight. </string>
+</resources>
