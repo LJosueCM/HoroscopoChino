@@ -139,42 +139,28 @@ public class MainActivity extends AppCompatActivity{
         int nacimientoD = dayOfMonth;
         int edadDia;
         int edadMes;
-        //Toast.makeText(MainActivity.this, ""+edad, Toast.LENGTH_LONG).show();
+        //Toast.makeText(MainActivity.this, ""+year, Toast.LENGTH_LONG).show();
         final Calendar c1= Calendar.getInstance();
         diaA=c1.get(Calendar.DAY_OF_MONTH);
         mesA=c1.get(Calendar.MONTH);
         anioA=c1.get(Calendar.YEAR);
-        if (nacimiento>anioA){
-            Toast.makeText(MainActivity.this, getResources().getString(R.string.errorFecha), Toast.LENGTH_LONG).show();
-            error=1;
-        }
-        else if(nacimiento==anioA && nacimientoM>=mesA && nacimientoD>diaA){
-            Toast.makeText(MainActivity.this, getResources().getString(R.string.errorFecha), Toast.LENGTH_LONG).show();
-            error=1;
-        }
-        else if (nacimientoM==mesA && nacimientoD==diaA){
+        if (nacimientoM==mesA && nacimientoD==diaA) {
             Toast.makeText(MainActivity.this, getResources().getString(R.string.Cumpleaños), Toast.LENGTH_LONG).show();
+            error = 0;
+        }
+        if(nacimientoM>=mesA && nacimientoD>diaA){
+            if(nacimiento>=anioA) {
+                Toast.makeText(MainActivity.this, getResources().getString(R.string.errorFecha), Toast.LENGTH_LONG).show();
+                error = 1;
+            }else{
+                edad = anioA - nacimiento - 1;
+            }
+        } else {
+            edad = anioA - nacimiento;
+            //Toast.makeText(MainActivity.this, "entre aqui", Toast.LENGTH_LONG).show();
             error=0;
         }
-        else {
-            error=0;
-            if (diaA<nacimientoD){
-                diaA = diaA + 30;
-                mesA = mesA - 1;
-                edadDia = diaA - nacimientoD;
-            }else{
-                edadDia = diaA - nacimientoD;
-            }
-
-            if (mesA<=nacimientoM){
-                mesA = mesA+12;
-                anioA = anioA -1;
-                edadMes = mesA - nacimientoM;
-            }else{
-                edadMes = mesA - nacimientoM;
-            }
-        }
-        int edad = anioA - nacimiento;
+        //Toast.makeText(MainActivity.this, ""+edad, Toast.LENGTH_LONG).show();
         return edad;
     }
 

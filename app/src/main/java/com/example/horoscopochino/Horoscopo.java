@@ -12,7 +12,7 @@ public class Horoscopo extends AppCompatActivity {
     ImageView ivAnimal;
     TextView tvHola;
     TextView tvTuEdad;
-    TextView tvAnimal, tvAnimal2;
+    TextView tvAnimal;
     int a;
 
     @Override
@@ -23,7 +23,6 @@ public class Horoscopo extends AppCompatActivity {
         tvHola = findViewById(R.id.tvHola);
         tvTuEdad = findViewById(R.id.tvTuEdad);
         tvAnimal = findViewById(R.id.tvAnimal);
-        tvAnimal2 = findViewById(R.id.tvAnimal2);
         ivAnimal = findViewById(R.id.ivAnimal);
 
         recibirDatos();
@@ -35,9 +34,14 @@ public class Horoscopo extends AppCompatActivity {
         int edad = extras.getInt("edad");
         String animal = extras.getString("animal");
         tvHola.setText(getResources().getString(R.string.hola) + " " + nombre);
-        tvTuEdad.setText(getResources().getString(R.string.edad1) + " " + edad + " " + getResources().getString(R.string.edad2));
-        tvAnimal.setText(getResources().getString(R.string.animal));
-        tvAnimal2.setText(getResources().getString(R.string.animal2) + " " + animal);
+        if (edad==0){
+            tvTuEdad.setText(getResources().getString(R.string.edad3));
+        }else if(edad==1){
+            tvTuEdad.setText(getResources().getString(R.string.edad1) + " " + edad + " " + getResources().getString(R.string.edad4));
+        }else{
+            tvTuEdad.setText(getResources().getString(R.string.edad1) + " " + edad + " " + getResources().getString(R.string.edad2));
+        }
+        tvAnimal.setText(getResources().getString(R.string.animal)+" "+animal);
         if (animal.equals("Rata")) {
             ivAnimal.setImageResource(R.drawable.rata);a=0;
         } else if (animal.equals("Buey")) {

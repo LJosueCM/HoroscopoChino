@@ -14,8 +14,9 @@
     <string name="hola">Hola</string>
     <string name="edad1">Tienes</string>
     <string name="edad2">años</string>
-    <string name="animal">De acuerdo al Horóscopo</string>
-    <string name="animal2">Chino, eres un</string>
+    <string name="edad3">Aún no cumples tu primer año</string>
+    <string name="edad4">año</string>
+    <string name="animal">De acuerdo al Horóscopo Chino, eres un</string>
     <string name="rata">Los nacidos bajo el signo de la Rata son persona sabias a las que les gusta rodearse de familiares y amigos, a quienes ayudan en sus quehaceres y problemas diarios. Buenas trabajadoras, ahorradores y buenos administradores de su economía.</string>
     <string name="buey">Los búfalos o bueyes son animales pacientes y tranquilos, que irradian mucho cariño y amor e infunden respeto. Grandes trabajadores, se sienten a gusto rodeados del orden y la limpieza y logran el éxito gracias a su esfuerzo. Para ellos lo más importante es la familia, aunque son celosos con su pareja. Aman el arte y la música. No les gusta discutir, aunque sí que le obedezcan.</string>
     <string name="tigre">Las personas de este signo son muy pasionales y llenas de energía. No pasan desapercibidas, son aventureros, independientes, ingeniosos, impulsivos y les gusta la diversión. Son amigos para toda la vida, aunque les gusta ser el líder del grupo. En el mundo de las relaciones de pareja se muestran el más fuerte, sexy y seductor, aunque de comportamiento excesivo.</string>
